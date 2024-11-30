@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+
+}
+
+.focus-container{
+    width: 90%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+
+}
+
+.text-container{
+    width: 30%;
+    height: auto;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.15rem;
+
+}
+
+.pricing-container{
+    width: fit-content;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    font-size: 0.79rem;
+
+}
+
+.pricing-that-grows-container{
+    width: fit-content;
+    height: auto;
+
+}
+.pricing-that-grows-container h1{
+    font-weight: 600;
+    font-size: 1.6rem;
+
+}
+
+.choose-container{
+    width: fit-content;
+    height: auto;
+}
+.choose-container p{
+    font-weight: 400;
+    font-size: 0.79rem;
+
+}
+
+.toggle-container{
+    width: fit-content;
+    height: auto;
+   
+    
+    
+}
+
+.annually-container{
+    width: 12rem;
+    height: auto;
+    border-radius: 10rem;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 0.15rem;
+}
+
+.annually-container2{
+    width: fit-content;
+    height: auto;
+    padding: 0.25rem 1rem;
+}
+
+.monthly-container{
+    width: 5rem;
+    height: auto;
+    background-color: #6366f1;
+    border-radius: 10rem;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px; 
+ 
+}
+
+.tab-container{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    column-gap: 3.15rem;
+
+}
+
+.first-tab-container{
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0.09rem; 
+    border-style: ridge;
+    border-color: #676768;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    column-gap: 0.15rem;
+    padding-bottom: 3.5rem;
+}
+
+.price{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    align-items: start;
+}
+
+.month{
+    width: fit-content;
+    height: auto;
+    justify-content: first baseline;
+}
+.button-container{
+    width: 100%;
+    height: auto;
+
+}
+button{
+    width: 90%;
+    height: auto;
+    border-radius: 0.95rem;
+    color: #676768;
+
+}
+
+.second-tab-container{
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0.09rem; 
+    border-style: ridge;
+    border-color: #0b0bf2;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    column-gap: 0.15rem;
+    padding-bottom: 3.5rem;
+}
+ 
